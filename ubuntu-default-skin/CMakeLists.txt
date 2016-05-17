@@ -1,6 +1,6 @@
 
-set(pkgbindir 	/usr/bin/)
-set(pkgdatadir 	/usr/share/fcitx-qimpanel)
+set(pkgbindir 	/opt/fcitx/usr/bin/)
+set(pkgdatadir 	/opt/fcitx/usr/share/fcitx-qimpanel)
 
 foreach(skin ubuntu-grey ubuntu-milk ubuntu-orange)
     install(DIRECTORY ${skin} DESTINATION ${pkgdatadir}/skin)

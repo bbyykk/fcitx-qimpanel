@@ -71,8 +71,8 @@ if(QT_4)
         ${QT_QTDBUS_LIBRARY} ${QT_QTDECLARATIVE_LIBRARY})
 endif()
 
-    set(pkgbindir 	/usr/bin/)
-    set(pkgdatadir 	/usr/share/fcitx-qimpanel)
+    set(pkgbindir 	/opt/fcitx/usr/bin/)
+    set(pkgdatadir 	/opt/fcitx/usr/share/fcitx-qimpanel)
     install(TARGETS fcitx-qimpanel RUNTIME DESTINATION ${pkgbindir})
 
     add_subdirectory(ubuntu-default-skin)
